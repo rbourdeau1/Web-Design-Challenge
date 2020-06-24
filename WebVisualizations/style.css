@@ -1,72 +1,41 @@
-/* ----DEFAULT ELEMENT STYLING START---- */
+/**** MAIN STYLING ****/
 html {
-  /* Positioning */
   position: relative;
-
-  /* Box-model */
   min-height: 100%;
 }
 
 body {
-  /* Positioning */
   margin-bottom: 150px;
-
-  /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-  /* Visual */
   background-color: black;
 }
 
-/* Media query for body */
 @media only screen and (max-width: 767px) 
 
-/* ----DEFAULT ELEMENT STYLING END---- */
+/**** NAVIGATION BAR ****/
 
-/* ----NAV START---- */
-
-/* Media query for nav */
 @media only screen and (max-width: 767px) 
 {
-  .navbar-header {
-    background-color: #4aaaa5;
-  }
+  .navbar-header {background-color: #4aaaa5}
 }
 
-/* -----NAV END---- */
-
-/* ----DESCRIPTION START---- */
+/**** BODY ****/
 .box-header {
-  /* Positioning */
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 32px;
   font-weight: bold;
   color: #4a50aa;
 }
 
 .box-content {
-  /* Box-model */
   padding: 30px;
-
-  /* Positioning */
   margin-top: 32px;
-
-  /* Visual */
   background-color: #fff;
 }
 
-
-
-
-
 #box-image {
-  /* Positioning */
   float: left;
-
-  /* Box-model */
   width: 200px;
   height: 200px;
   margin-top: 20px;
@@ -74,51 +43,32 @@ body {
 }
 
 #vis-image {
-  /* Positioning */
   float: left;
-
-  /* Box-model */
   width: 650px;
   height: 400px;
   margin-top: 20px;
   margin-right: 20px;
 }
-/* Description content media query */
+
 @media only screen and (max-width: 767px) 
 {
-  /* override default class styling for positioning/padding */
-
   .description-content {
-    /* Box-model */
     padding: 0;
-
-    /* Positioning */
     margin-top: 0;
   }
 }
 
-/* ----DESCRIPTION END---- */
-
-/* ----IMAGE NAV START---- */
+/**** SIDE NAVIGATION ****/
 #vis-area {
   width: 100%;
-
-  /* Box-model */
   padding: 30px 30px 43px;
-
-  /* Positioning */
   margin-top: 32px;
-
-  /* Visual */
   background-color: #fff;
 }
 
 .vis-header {
-  /* Positioning */
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 25px;
   font-weight: bold;
   color: #4a50aa;
@@ -126,48 +76,36 @@ body {
 
 .vis-photo {
   width: 140px;
-
-  /* Box-model */
   height: 140px;
 }
 
 .vis-photo:hover {
-  /* Visuals */
   opacity: 0.6;
 }
 
 .vis-photo.active {
-  /* Visuals */
   border: 2px solid #4aaaa5;
 }
 
 #images {
-  /* Box-model */
   padding-top: 15px;
-
-  /* Typography */
   text-align: center;
 }
 
-/* ----IMAGE NAV END---- */
 
-/* ----COMPARISON START---- */
+/**** COMPARISON PAGE ****/
 .comparison-image:hover {
   opacity: 0.6;
 }
 
 .comparison-header {
-  /* Positioning */
   margin-bottom: 10px;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 20px;
   font-weight: bold;
   color: #4aaaa5;
   text-align: center;
 }
 
-/* ----COMPARISON END---- */
 
 
